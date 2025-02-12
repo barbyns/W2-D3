@@ -189,7 +189,7 @@ console.log("end")
   Una volta fatto, modifica la massa di qualche elemento dell'equipaggio e vedi se riesci ad ottenere un messaggio diverso.
 */
 let totalMass = "starWarsCharacters"
-if (toalMass <500){
+if (totalMass <500){
   console.log("Ship is under loaded");
 } else if (totalMass >= 500 && totalMass < 700) {
   console.log("Ship is half loaded");
@@ -205,18 +205,18 @@ console.log("Total Ship Mass", totalMass)
 /* ESERCIZIO 8
   Usa un for loop per cambiare il valore della proprietà "gender" di alcuni personaggi dal valore "n/a" a "robot" (Tip: puoi effettuare la riassegnazione del valore corrispondente o creare un nuovo array)
 */
+for (let i = 0; i < starWarsCharacters.length; i++){
+  if (starWarsCharacters[i].gender === "n/a") {
+    starWarsCharacters[i].gender = "robot";
+  }
+}
+console.log(starWarsCharacters);
 
 /* --EXTRA-- ESERCIZIO 9
   Utilizzando gli elementi presenti nell'array "femaleCharacters" rimuovi dall'array "charactersNames" le stringhe corrispondenti a personaggi con lo stesso nome.
   Una volta fatto crea un console.log per controllare la proprietà length di "charactersNames" prima e dopo l'operazione.
 */
 
-while (sstarWarsCharacters < 5)
-for (let i = 0; i < starWarsCharacters.length; i++){
-  if(charactersNames[i].charAt(0) === "Luke") {
-  }
-}
-console.log("Elimina questo nome", starWarsCharacters[i])
 /* --EXTRA-- ESERCIZIO 10
   Crea una funzionalità che selezioni un elemento casuale dall'array "starWarsCharacters" e ne stampi in console le proprietà in modo discorsivo (a tuo piacimento).
 */
