@@ -160,7 +160,6 @@ switch (starWarsCharacters[i].eye_color) {
   case "blueGray":
     eyeColor.blueGray.push(starWarsCharacters[i]);
 }
-}
 console.log("Personaggi con occhi blu:",eyeColor.blue);
 console.log("Personaggi con occhi gialli:",eyeColor.yellow);
 console.log("Personaggi con occhi marroni",eyeColor.brown);
