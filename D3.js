@@ -197,7 +197,8 @@ console.log("end")
   Utilizzando gli elementi presenti nell'array "femaleCharacters" rimuovi dall'array "charactersNames" le stringhe corrispondenti a personaggi con lo stesso nome.
   Una volta fatto crea un console.log per controllare la proprietà length di "charactersNames" prima e dopo l'operazione.
 */
-delete starWarsCharacters.name
+
+while (sstarWarsCharacters < 5)
 for (let i = 0; i < starWarsCharacters.length; i++){
   if(charactersNames[i].charAt(0) === "Luke") {
   }
